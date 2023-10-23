@@ -1,0 +1,82 @@
+body {
+  background-color: #636b78;
+}
+
+h1 {
+  color: whitesmoke;
+}
+
+p {
+  color: white;
+}
+
+a {
+  color: red;
+}
+
+/* Page 2 Classes */
+
+#p2p {
+  background-color: blanchedalmond;
+  color: black;
+}
+
+.odd {
+  background-color: blue;
+}
+
+/* Page 3 Classes */
+
+.p3body {
+  background-color: black;
+}
+
+.p3h1 {
+  color: white;
+  font-family: "Press Start 2P", Helvetica, sans-serif;
+}
+
+.p3p {
+  font-family: 'consolas', Courier, sans-serif;
+  color: #00FF73;
+  font-weight: bold;
+  font-size: 18px;
+  font-style: italic;
+  text-decoration: cyan dotted underline;
+}
+
+/* Page 4 Classes */
+
+.p4body {
+  background-color: black;
+}
+
+.p4h1 {
+  color: whitesmoke;
+}
+
+.p4p {
+color: red;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.element {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.element.selected {
+  background-color: #ff9999;
+}
+
+#delete-button {
+  margin-top: 20px;
+}
